@@ -19,8 +19,6 @@ let main window =
   Gl.clear_color 0.9 0.1 0.3 1.0;
   Gl.clear Gl.color_buffer_bit;
 
-  Gl
-
   Sdl.gl_swap_window window;
   (* let surface = match Sdl.get_window_surface window with
   | Error (`Msg e) -> Log.(msg Critical "Failed to get window surface: %s" e); exit 1
