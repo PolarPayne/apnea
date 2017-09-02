@@ -1,3 +1,5 @@
+.vscode/
+
 *.cmi
 *.cmx
 *.o
